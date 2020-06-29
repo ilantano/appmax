@@ -102,3 +102,22 @@ h4 {
   transform: translateY(-3px);
   transition: 0.4s;
 }
+
+.features {
+  padding: 100px 0px;
+}
+
+.collection {
+  max-width: 100%;
+  height: 37rem;
+}
+
+.screenshot-info {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.size-item {
+  width: 20rem;
+  height: 35rem;
+}
