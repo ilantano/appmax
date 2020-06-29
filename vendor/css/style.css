@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 @font-face {
   font-family: Poppins;
   src: url(../font/Poppins-Regular.ttf);
@@ -6,4 +11,94 @@
 @font-face {
   font-family: 'Noto Sans TC';
   src: url(../font/NotoSansTC-Regular.otf);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: #222;
+}
+
+.text {
+  font-family: Poppins;
+}
+
+.text a {
+  color:black!important;
+  padding: 30px 20px !important;
+}
+
+.text a:hover{
+  color: #7c4fe0!important;
+}
+
+.menu-item {
+  height: 88.5px;
+}
+
+.text-started {
+  display: block;
+  font-size: 14px;
+  font-family: Poppins;
+}
+
+.info-text {
+  display: block;
+  color: #222222;
+  font-size: 3.5rem;
+}
+
+.iphone {
+  max-width: 100%;
+  height: 38.0625‬rem;
+}
+
+.header {
+  background-color:#F6F9FE;
+  position: relative;
+  height: 55rem;
+}
+
+.header-content {
+  z-index: 2;
+}
+
+.shape-bottom {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+}
+
+.space-color {
+  width: 4.375rem;
+  color: #7C4FE0;
+  border: 1px solid #7C4FE0;
+}
+
+.features-info {
+  padding: 100px 0px;
+  text-align: center;
+}
+
+.icon-item {
+  font-size: 3.3125rem;
+  
+}
+
+h4 {
+  padding-top: 1.5625rem;
+}
+
+.plug-hover {
+  transition: 0.4s;
+  padding: 1.5rem;
+}
+
+.plug-hover:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #7C4FE0;
+  transform: translateY(-3px);
+  transition: 0.4s;
 }
